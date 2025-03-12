@@ -46,39 +46,21 @@ Instead of `@RequestMapping`, we can use specific annotations for each HTTP meth
 
 ## 📌 pom.xml Dependencies
 
-## 🚀 Running the API
 
-### 1️⃣ Clone the Repository
-
-```sh
-git clone https://github.com/shivaniaj22/ShoppingECommerceAPI.git
-```
-
-### 2️⃣ Navigate to the Project Directory
-
-```sh
-cd ShoppingECommerceAPI
-```
-
-### 3️⃣ Run the Application
-
-```sh
-mvn spring-boot:run
-```
 
 ## 📌 API Endpoints
 
-| HTTP Method | Endpoint | Description |
-|------------|----------------|----------------|
-| **GET** | `/amazon/products` | Get all products |
-| **POST** | `/amazon/add` | Add a new product |
-| **PUT** | `/amazon/update` | Update an existing product |
-| **DELETE** | `/amazon/delete` | Delete a product |
+| HTTP Method | Description |
+|------------|----------------
+| **GET** | Get all products |
+| **POST** | Add a new product |
+| **PUT** |  Update an existing product |
+| **DELETE** |  Delete a product |
 
 ## 📌 Testing with Postman
 
 1️⃣ Open **Postman**.
-2️⃣ Use the API endpoints listed above.
+2️⃣ Use the API .
 3️⃣ Send requests and verify responses.
 
 
